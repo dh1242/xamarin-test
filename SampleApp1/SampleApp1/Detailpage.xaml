@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SampleApp1.Detailpage"
+             Title="Detail Page">
+    <ContentPage.Content>
+        <StackLayout Padding="5,5,5,5">
+            <Label HorizontalTextAlignment="Start"
+                   FontSize="Medium">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="ID: "
+                              TextColor="#8A8484" />
+                        <Span Text="{Binding SelectedProfesstional.Id}"
+                              TextColor="Black" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label HorizontalTextAlignment="Start"
+                   FontSize="Medium">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Name: "
+                              TextColor="#8A8484" />
+                        <Span Text="{Binding SelectedProfesstional.Name}"
+                              TextColor="Black" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label HorizontalTextAlignment="Start"
+                   FontSize="Medium">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Desigination: "
+                              TextColor="#8A8484" />
+                        <Span Text="{Binding SelectedProfesstional.Desigination}"
+                              TextColor="Black" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label HorizontalTextAlignment="Start"
+                   FontSize="Medium">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Domain: "
+                              TextColor="#8A8484" />
+                        <Span Text="{Binding SelectedProfesstional.Domain}"
+                              TextColor="Black" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label HorizontalTextAlignment="Start"
+                   FontSize="Medium">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Experience: "
+                              TextColor="#8A8484" />
+                        <Span Text="{Binding SelectedProfesstional.Experience}"
+                              TextColor="Black" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
