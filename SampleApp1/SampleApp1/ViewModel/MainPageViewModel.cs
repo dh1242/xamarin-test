@@ -10,10 +10,26 @@ namespace SampleApp1.ViewModel
 {
     public class MainPageViewModel : INotifyPropertyChanged
     {
+        #region Properties
         private List<Professional> _professionals;
         private Professional _selectedProfessional;
         private bool _isRefreshing;
+        public ICommand RefreshCommand { get; set; }
+        #endregion
+        public MainPageViewModel()
+        {
+            // Initialize list data
+            InitializeData();
+            // Initialize command for refresh
+            RefreshCommand = new Command(CmdRefresh);
+        }
 
+        private async void InitializeData()
+        {
+            Professionals = await DummyProfessionalData.GetProfessionals();
+        }
+
+        #region Data get set
         public List<Professional> Professionals
         {
             get
@@ -38,7 +54,6 @@ namespace SampleApp1.ViewModel
                 OnPropertyChanged(nameof(SelectedProfesstional));
             }
         }
-
         public bool IsRefreshing
         {
             get
@@ -51,15 +66,7 @@ namespace SampleApp1.ViewModel
                 OnPropertyChanged(nameof(IsRefreshing));
             }
         }
-
-        public ICommand RefreshCommand { get; set; }
-
-        public MainPageViewModel()
-        {
-            Professionals = DummyProfessionalData.GetProfessionals();
-            RefreshCommand = new Command(CmdRefresh);
-        }
-
+        #endregion
         private async void CmdRefresh()
         {
             IsRefreshing = true;
@@ -67,12 +74,14 @@ namespace SampleApp1.ViewModel
             IsRefreshing = false;
         }
 
+        #region Property change event
         public event PropertyChangedEventHandler PropertyChanged;
-
+  
         private void OnPropertyChanged(string property)
         {
             if (PropertyChanged != null)
                 PropertyChanged(this, new PropertyChangedEventArgs(property));
         }
+        #endregion
     }
 }

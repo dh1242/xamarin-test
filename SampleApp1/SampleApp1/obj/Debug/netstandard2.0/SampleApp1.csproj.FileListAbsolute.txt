@@ -1,13 +1,13 @@
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\bin\Debug\netstandard2.0\SampleApp1.deps.json
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\bin\Debug\netstandard2.0\SampleApp1.dll
+C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\bin\Debug\netstandard2.0\SampleApp1.pdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\SampleApp1.csprojAssemblyReference.cache
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\SampleApp1.csproj.CoreCompileInputs.cache
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\SampleApp1.AssemblyInfoInputs.cache
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\SampleApp1.AssemblyInfo.cs
-C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\bin\Debug\netstandard2.0\SampleApp1.pdb
+C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\SampleApp1.dll
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\SampleApp1.pdb
-C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\XamlC.stamp
-C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\Detailpage.xaml.g.cs
+C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\Pages\Detailpage.xaml.g.cs
+C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs

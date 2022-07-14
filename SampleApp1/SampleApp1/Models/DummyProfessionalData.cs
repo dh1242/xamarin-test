@@ -1,37 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace SampleApp1.Models
 {
     public static class DummyProfessionalData
     {
-        public static List<Professional> GetProfessionals()
+        static Task task;
+        
+        // Get data 
+        // Data can be fetch from any service for from DB
+        // will be written in this function
+        public async static Task<List<Professional>> GetProfessionals()
         {
             var data = new List<Professional>();
-            Random rd = new Random();
-            for (int i = 0; i < 15; i++)
+            task = Task.Run(async () =>
             {
-                int rand_num = rd.Next(1, 60);
-                data.Add(new Professional()
+                Random rd = new Random();
+                for (int i = 0; i < 35; i++)
                 {
-                    Id = (i+1).ToString(),
-                    Name = mylist[i],
-                    Desigination = mylist[i],
-                    Domain = mylist[i],
-                    Experience = rand_num.ToString()
-                });
-
-            }
+                    int rand_num = rd.Next(1, 60);
+                    data.Add(new Professional()
+                    {
+                        Id = (i + 1).ToString(),
+                        Name = mylist[i],
+                        Desigination = mylist[i],
+                        Domain = mylist[i],
+                        Experience = rand_num.ToString()
+                    });
+                }
+            });
+            await task;
             return data;
         }
 
+        // Dummy list of data
         static List<string> mylist = new List<string>(new string[] {
                     "Accountant",
             "Actor",
             "Administrator",
-            "Aerospace Engineer",
-            "Agricultural Engineer",
             "Anthropologist",
             "Architect",
             "Astronomer",
@@ -48,22 +56,15 @@ namespace SampleApp1.Models
             "Childcare Worker",
             "Civil Engineer",
             "Clergy",
-            "Computer Scientist",
-            "Conservation Worker",
-            "Construction Worker",
             "Cook",
             "Cosmetologist",
             "Craftsperson",
-            "Customer Experience Design",
             "Data Analyst",
             "Data Scientist",
             "Dental Assistant",
-            "Development Manager",
             "Ecommerce Seller",
             "Electrical Engineer",
-            "Emergency Medical Technician",
             "Engineer",
-            "Environmental Engineer",
             "Epidemiologist",
             "Event Planner",
             "Farmer",
@@ -77,28 +78,16 @@ namespace SampleApp1.Models
             "Government Worker",
             "Health Educator",
             "Hotel Manager",
-            "Import/Export Specialist",
             "Information Design",
-            "Information Technology Manager",
             "Interpreter",
-            "Laboratory Technician",
-            "Landscape Architect",
             "Lawyer",
             "Librarian",
-            "Logistics Engineer",
             "Manicurists",
-            "Manufacturing Worker",
             "Mathematician",
-            "Medical Administration",
-            "Medical Technician",
-            "Mental Health Counselor",
             "Miner",
             "Nanny",
             "Nurse",
-            "Occupational Therapist",
-            "Operations Analyst",
             "Optometrist",
-            "Personal Care Aid",
             "Photographer",
             "Physicist",
             "Plumber",
@@ -108,14 +97,12 @@ namespace SampleApp1.Models
             "Project Manager",
             "Property Manager",
             "Purchasing Manager",
-            "Quality Control Analyst",
             "Reporter",
             "Restaurant Manager",
             "Robotics Engineer",
             "Sales Manager",
             "Scientist",
             "Service Manager",
-            "Small Business Owner",
             "Sociologist",
             "Software Developer",
             "Space Scientist",
@@ -125,13 +112,10 @@ namespace SampleApp1.Models
             "Systems Analyst",
             "Teacher",
             "Technical Writer",
-            "Technology Architect",
             "Tour Guide",
-            "Transportation Engineer",
             "Tutor",
             "Veterinarian",
             "Waiter",
-            "Wind Energy Engineer"
        });
     }
 }

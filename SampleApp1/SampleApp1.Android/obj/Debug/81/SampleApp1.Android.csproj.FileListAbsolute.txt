@@ -56,7 +56,6 @@ C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\bin\Debug\
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\bin\Debug\System.Web.Services.pdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\bin\Debug\Microsoft.CSharp.pdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\bin\Debug\Mono.Security.pdb
-C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\bin\Debug\SampleApp1.dll.mdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\81\linksrc\SampleApp1.Android.pdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\81\linksrc\FormsViewGroup.pdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\81\linksrc\Mono.Android.pdb
@@ -80,6 +79,7 @@ C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\81\linksrc\System.Web.Services.pdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\81\linksrc\Microsoft.CSharp.pdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\81\linksrc\Mono.Security.pdb
+C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\bin\Debug\SampleApp1.dll.mdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\81\linksrc\SampleApp1.dll.mdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\81\android\assets\SampleApp1.dll.mdb
 C:\Users\Nadeem\Source\repos\SampleApp1\SampleApp1\SampleApp1.Android\obj\Debug\81\android\assets\FormsViewGroup.pdb
